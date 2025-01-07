@@ -1,4 +1,4 @@
-module github.com/bitcoin-addresses
+module github.com/sdoshi579/bitcoin-addresses
 
 go 1.22.3
 

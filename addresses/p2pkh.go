@@ -3,9 +3,9 @@ package addresses
 import (
 	"fmt"
 
-	"github.com/bitcoin-addresses/helpers"
 	"github.com/btcsuite/btcutil/base58"
 	ecies "github.com/ecies/go/v2"
+	"github.com/sdoshi579/bitcoin-addresses/helpers"
 )
 
 // Pay to Public Key Hash Address

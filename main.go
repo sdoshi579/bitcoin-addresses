@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/bitcoin-addresses/addresses"
 	ecies "github.com/ecies/go/v2"
+	"github.com/sdoshi579/bitcoin-addresses/addresses"
 )
 
 func main() {

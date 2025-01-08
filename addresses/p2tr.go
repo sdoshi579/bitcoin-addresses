@@ -3,10 +3,10 @@ package addresses
 import (
 	"fmt"
 
-	"github.com/bitcoin-addresses/helpers"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil/bech32"
 	ecies "github.com/ecies/go/v2"
+	"github.com/sdoshi579/bitcoin-addresses/helpers"
 )
 
 // Pay to tap root

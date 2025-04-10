@@ -40,8 +40,8 @@ func main() {
 	}
 
 	fmt.Printf("Entropy: %v\n", hex.EncodeToString(entropy))
-	ent, _ := hex.DecodeString("58fff21999a3ceed9accfdff5461a0ea")
-	recoverCodes := addresses.GetRecoveryCodesFromEntropy(ent)
+
+	recoverCodes := addresses.GetRecoveryCodesFromEntropy(entropy)
 	fmt.Printf("Recovery code: %v\n", recoverCodes)
 
 	seed := addresses.GetSeedFromRecoveryCodes(recoverCodes, "")

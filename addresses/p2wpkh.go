@@ -34,5 +34,6 @@ func GetP2WPKHAddress(eccKeyPair ecies.PrivateKey) {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Printf("length of P2WPKH in bytes: %d\n", len(bech32Bytes)+1)
 	fmt.Printf("P2WPKH address encoded in bech32: %s\n", bech32Address)
 }

@@ -12,3 +12,9 @@ func GetEccKeyPair() ecies.PrivateKey {
 
 	return *privateKey
 }
+
+func GetPublicKey(privateKey []byte) []byte {
+	privateKeyInstance := ecies.NewPrivateKeyFromBytes(privateKey)
+
+	return privateKeyInstance.PublicKey.Bytes(true)
+}
